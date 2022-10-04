@@ -3,8 +3,8 @@
     public static class AC // Astrodynamicreadonlyants
     {
         public static double MER_Eng = Math.Pow(2092567257, 7);                         // ft
-        public static double MER_Met = 6378145;                                         // m
-        public static double GC = Math.Pow(6.67, -11);                                  // m^3 / kg*s^2 (Gravity readonlyant)
+        public static readonly double MER_Met = 6378145;                                // m
+        public static readonly double GC = Math.Pow(6.67, -11);                         // m^3 / kg*s^2 (Gravity readonlyant)
     }
 
     public static class COP // CONSTANTS OF PLANETS
