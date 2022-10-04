@@ -16,6 +16,7 @@ V........................VELOCITY
 T........................TIME
 T_INI....................INITIAL TIME
 V_ESC....................ESCAPE VELOCITY
+V_INF....................INFINITIFE VELOCITY
 DV.......................DELTA VELOCITY
 M........................MASS
 M_MOT....................MASS OF MOTOR
@@ -33,8 +34,8 @@ B........................SEMIAXIS
 P........................CIRCULATION TERM (KEPLER LAW)
 APO......................APOGEE
 PERI.....................PERIGEE
-VVOLUME
-DDENSITY
+V........................VOLUME
+D........................DENSITY
 
 
 METHODS IN COP

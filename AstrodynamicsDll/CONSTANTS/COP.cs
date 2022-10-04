@@ -2,39 +2,39 @@
 {
     public static class AC // Astrodynamicreadonlyants
     {
-        public static double MER_Eng = Math.Pow(2092567257, 7);                                // ft
-        public static double MER_Met = 6378145;                                                 // m
-        public static double GC = Math.Pow(6.67, -11);                                          // m^3 / kg*s^2 (Gravity readonlyant)
+        public static double MER_Eng = Math.Pow(2092567257, 7);                         // ft
+        public static double MER_Met = 6378145;                                         // m
+        public static double GC = Math.Pow(6.67, -11);                                  // m^3 / kg*s^2 (Gravity readonlyant)
     }
 
     public static class COP // CONSTANTS OF PLANETS
     {
         #region MASS OF SUN PLANETS AND EARTH'S MOON 
-        public static double M_SUN = Math.Pow(1.9891, 1030);                                    // kg;
-        public static double M_MERCURY = Math.Pow(3.301, 23);                                   // kg;
-        public static readonly double M_VENUS = Math.Pow(4.867, 24);                            // kg;
-        public static readonly double M_EARTH = Math.Pow(5.972, 24);                            // kg;
-        public static readonly double M_EARTH_MOON = Math.Pow(7.348, 22);                       // kg;
-        public static readonly double M_MARS = Math.Pow(6.417, 23);                             // kg;
-        public static readonly double M_JUPITER = Math.Pow(1.899, 27);                          // kg;
-        public static readonly double M_SATURN = Math.Pow(5.685, 26);                           // kg;
-        public static readonly double M_URANUS = Math.Pow(8.682, 25);                           // kg;
-        public static readonly double M_NEPTUN = Math.Pow(1.024, 26);                           // kg;
-        public static readonly double M_PLUTO = Math.Pow(1.471, 22);                            // kg;
+        public static readonly double M_SUN = Math.Pow(1.9891, 1030);                    // kg;
+        public static readonly double M_MERCURY = Math.Pow(3.301, 23);                   // kg;
+        public static readonly double M_VENUS = Math.Pow(4.867, 24);                     // kg;
+        public static readonly double M_EARTH = Math.Pow(5.972, 24);                     // kg;
+        public static readonly double M_EARTH_MOON = Math.Pow(7.348, 22);                // kg;
+        public static readonly double M_MARS = Math.Pow(6.417, 23);                      // kg;
+        public static readonly double M_JUPITER = Math.Pow(1.899, 27);                   // kg;
+        public static readonly double M_SATURN = Math.Pow(5.685, 26);                    // kg;
+        public static readonly double M_URANUS = Math.Pow(8.682, 25);                    // kg;
+        public static readonly double M_NEPTUN = Math.Pow(1.024, 26);                    // kg;
+        public static readonly double M_PLUTO = Math.Pow(1.471, 22);                     // kg;
         #endregion
 
         #region RADIUS OF SUN PLANETS AND EARTH'S MOON 
-        public static readonly double R_SUN = 696340 * 1000;                                    // m;
-        public static readonly double R_MERCURY = 2439.7 * 1000;                                // m;
-        public static readonly double R_VENUS = 6051.8 * 1000;                                  // m;
-        public static readonly double R_EARTH = 6371 * 1000;                                    // m;
-        public static readonly double R_EARTH_MOON = 7.348 * 1000;                              // m;
-        public static readonly double R_MARS = 3389.5 * 1000;                                   // m;
-        public static readonly double R_JUPITER = 69911 * 1000;                                 // m;
-        public static readonly double R_SATURN = 58232 * 1000;                                  // m;
-        public static readonly double R_URANUS = 25362 * 1000;                                  // m;
-        public static readonly double R_NEPTUN = 24622 * 1000;                                  // m;
-        public static readonly double R_PLUTU = 1188.3 * 1000;                                  // m;
+        public static readonly double R_SUN = 696340 * 1000;                             // m;
+        public static readonly double R_MERCURY = 2439.7 * 1000;                         // m;
+        public static readonly double R_VENUS = 6051.8 * 1000;                           // m;
+        public static readonly double R_EARTH = 6371 * 1000;                             // m;
+        public static readonly double R_EARTH_MOON = 7.348 * 1000;                       // m;
+        public static readonly double R_MARS = 3389.5 * 1000;                            // m;
+        public static readonly double R_JUPITER = 69911 * 1000;                          // m;
+        public static readonly double R_SATURN = 58232 * 1000;                           // m;
+        public static readonly double R_URANUS = 25362 * 1000;                           // m;
+        public static readonly double R_NEPTUN = 24622 * 1000;                           // m;
+        public static readonly double R_PLUTU = 1188.3 * 1000;                           // m;
         #endregion
 
         #region VOLUME OF SUN PLANETS AND EARTH'S MOON 
