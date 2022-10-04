@@ -1,0 +1,49 @@
+﻿GC.......................GRAVITY CONSTANT
+FCV......................FIRST COSMIC VELOCITY
+SCV......................SECOND COSMIC VELOCITY
+TCV......................THIRD COSMIC VELOCITY
+COP......................CONSTANTS OF PLANETS
+CE.......................EFFECTIVE EXIT VELOCITY
+E........................ORBITAL ECCENTRICITY
+F........................Thrust
+g........................GRAVITATIONAL ACCELERATION 
+I........................INERTIA
+D_T......................TIME DIFFERENTIAL
+I........................INERTIA
+I_TOT....................TOTAL INERTIA
+I_S......................WEIGHT-SPECIFIC -IMPULSE
+V........................VELOCITY
+T........................TIME
+T_INI....................INITIAL TIME
+V_ESC....................ESCAPE VELOCITY
+DV.......................DELTA VELOCITY
+M........................MASS
+M_MOT....................MASS OF MOTOR
+M_STCT...................MASS OF STRUCTURE
+M_FUEL...................MASS OF FUEL
+M_PAY....................MASS OF PAYLOAD
+M_DT.....................MASS FLOW RATE
+ETA......................EFFICIENCY FACTOR
+ETA_MAX..................MAX EFFICIENCY FACTOR
+SIGMA_STCT...............STRUCTURE RATIO
+MY_PAY...................PAYLOAD RATIO
+R........................RADIUS
+A........................LARGE SEMIAXIS
+B........................SEMIAXIS
+P........................CIRCULATION TERM (KEPLER LAW)
+APO......................APOGEE
+PERI.....................PERIGEE
+VVOLUME
+DDENSITY
+
+
+METHODS IN COP
+GV GETVOLUME
+GD GETDENSITY
+
+ORBITAL MECHANICS
+
+ROCKETS
+
+
+PLANETS
