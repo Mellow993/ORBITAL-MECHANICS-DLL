@@ -1,10 +1,9 @@
 ﻿namespace AstrodynamicsDll.Constants
 {
-    public static class AC // Astrodynamicreadonlyants
+    public static class AC // ASTRODYNAMIC CONSTANTS
     {
-        public static double MER_Eng = Math.Pow(2092567257, 7);                         // ft
-        public static readonly double MER_Met = 6378145;                                // m
-        public static readonly double GC = Math.Pow(6.67, -11);                         // m^3 / kg*s^2 (Gravity readonlyant)
+        public static readonly double GC = Math.Pow(6.67, -11);                         // m^3 / kg*s^2 (GRAVITY CONSTANT)
+        public static readonly double G_EARTH = 9.81;                                   // kg/(m*s^2)
     }
 
     public static class COP // CONSTANTS OF PLANETS

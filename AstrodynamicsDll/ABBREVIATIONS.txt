@@ -17,6 +17,7 @@ T........................TIME
 T_INI....................INITIAL TIME
 V_ESC....................ESCAPE VELOCITY
 V_INF....................INFINITIFE VELOCITY
+G_EARTH..................GRAVITY (EARTH)
 DV.......................DELTA VELOCITY
 M........................MASS
 M_MOT....................MASS OF MOTOR

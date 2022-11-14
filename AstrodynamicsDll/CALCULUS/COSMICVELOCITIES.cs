@@ -12,16 +12,15 @@ namespace AstrodynamicsDll.CALCULUS
 
     public static class COSMICVELOCITIES
     {
-        #region COSMICVELOCITIES
-
+        #region METHODS COSMICVELOCITIES
         public static double G_FCV(double M, double r)
-        => Math.Sqrt(COP.GC * M / r);
+        => Math.Sqrt(AC.GC * M / r);
 
         public static double G_SCV(double M, double r)
             => Math.Sqrt(2 * AC.GC * M / r);
 
-        public static double G_TCV(double M, double r)
-            => Math.Sqrt(2 * AC.GC * COP.M_SUN / r_toOrth);
+        public static double G_TCV(double r)
+            => Math.Sqrt(2 * AC.GC * (COP.M_SUN / r) );
         #endregion
     }
 }
